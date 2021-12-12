@@ -70,7 +70,7 @@ body{
     background:linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)),url(fondo-contacto.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    
+
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin:5px;
     font-size: 20px;
@@ -114,6 +114,11 @@ section{
     height: 250px;
     margin: 25px 1% 0px 2%;
     border:10px solid rgb(252, 197, 43);
+    border-radius: 10%;
+}
+
+.imageprod:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
 
 .imageprod2 {
@@ -124,11 +129,29 @@ section{
     margin: 25px 1% 0px 2%;
     border:10px solid rgb(252, 197, 43);
     transition: height 2s steps(3);
+    border-radius: 10%;
 }
 
 .imageprod2:hover {
     height:250px;
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
+
+.imageprod3 {
+   
+    display: block;
+    width: 80%;
+    height: 200px;
+    margin: 25px 1% 0px 2%;
+    border:10px solid rgb(252, 197, 43);
+    border-radius: 10%;
+
+}
+
+.imageprod3:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
 .imageprod4 {
    
     display: block;
@@ -138,10 +161,12 @@ section{
     border:10px solid rgb(252, 197, 43);
     transition: width 2s, height 4s, transform 2s;
     transition-delay: 1s;
+    border-radius: 10%;
 }
 
 .imageprod4:hover {
     transform: rotate(360deg);
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
 
 .inside {
@@ -208,6 +233,11 @@ section{
     text-shadow: 2px 2px #b9dbf2; /*efecto de sombra al texto*/
 }
 
+dialog{
+    position: fixed;
+    bottom: 0;
+    margin: 0;
+}
 
 footer{
     bottom: 0;
